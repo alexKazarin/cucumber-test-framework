@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>features</td>
+        <td>1</td>
+      <td>07 May 2022, 19:48</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.context.ContextConfigurationInit.init()</td>
+              <td>8</td>
+              <td class="duration" data-value="2073812">0.002</td>
+              <td class="duration" data-value="2073812">0.015</td>
+              <td class="duration" data-value="16590500">0.016</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.errorMessageContains(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.expectStatusCode(java.lang.Integer)</td>
+              <td>2</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.generatePostRegistrationRequestBody()</td>
+              <td>3</td>
+              <td class="duration" data-value="98972900">0.098</td>
+              <td class="duration" data-value="98972900">0.203</td>
+              <td class="duration" data-value="296918700">0.296</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.preparePostLoginRequestBody()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.sendGetUserByIdRequest()</td>
+              <td>2</td>
+              <td class="duration" data-value="415535550">0.415</td>
+              <td class="duration" data-value="415535550">0.440</td>
+              <td class="duration" data-value="831071100">0.831</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.sendPostLoginRequest()</td>
+              <td>1</td>
+              <td class="duration" data-value="515254800">0.515</td>
+              <td class="duration" data-value="515254800">0.515</td>
+              <td class="duration" data-value="515254800">0.515</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.sendPostRegistrationRequest()</td>
+              <td>3</td>
+              <td class="duration" data-value="974945566">0.974</td>
+              <td class="duration" data-value="974945566">1.953</td>
+              <td class="duration" data-value="2924836700">2.924</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.setEmptyEmailPostRegistrationRequestBody()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.validateGetUserByIdResponse()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ApiServiceSteps.validatePostRegistrationRequest()</td>
+              <td>1</td>
+              <td class="duration" data-value="46878700">0.046</td>
+              <td class="duration" data-value="46878700">0.046</td>
+              <td class="duration" data-value="46878700">0.046</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.AuthenticationSteps.clickCreateAccountButton()</td>
+              <td>2</td>
+              <td class="duration" data-value="68500350">0.068</td>
+              <td class="duration" data-value="68500350">0.074</td>
+              <td class="duration" data-value="137000700">0.137</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.AuthenticationSteps.fillInvalidEmail()</td>
+              <td>1</td>
+              <td class="duration" data-value="90769100">0.090</td>
+              <td class="duration" data-value="90769100">0.090</td>
+              <td class="duration" data-value="90769100">0.090</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.AuthenticationSteps.fillValidEmail()</td>
+              <td>1</td>
+              <td class="duration" data-value="121304400">0.121</td>
+              <td class="duration" data-value="121304400">0.121</td>
+              <td class="duration" data-value="121304400">0.121</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ContactUsSteps.clickSendButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="7404261800">7.404</td>
+              <td class="duration" data-value="7404261800">7.404</td>
+              <td class="duration" data-value="7404261800">7.404</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ContactUsSteps.selectSubjectHeading()</td>
+              <td>1</td>
+              <td class="duration" data-value="79736100">0.079</td>
+              <td class="duration" data-value="79736100">0.079</td>
+              <td class="duration" data-value="79736100">0.079</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ContactUsSteps.setEmailAddress()</td>
+              <td>1</td>
+              <td class="duration" data-value="131726800">0.131</td>
+              <td class="duration" data-value="131726800">0.131</td>
+              <td class="duration" data-value="131726800">0.131</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ContactUsSteps.setMessageField()</td>
+              <td>1</td>
+              <td class="duration" data-value="93782300">0.093</td>
+              <td class="duration" data-value="93782300">0.093</td>
+              <td class="duration" data-value="93782300">0.093</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.ContactUsSteps.uploadFileOnSendMessageWindow()</td>
+              <td>1</td>
+              <td class="duration" data-value="76966700">0.076</td>
+              <td class="duration" data-value="76966700">0.076</td>
+              <td class="duration" data-value="76966700">0.076</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.GeneralUiSteps.clickOnText(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="1204116433">1.204</td>
+              <td class="duration" data-value="1204116433">1.485</td>
+              <td class="duration" data-value="3612349300">3.612</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.GeneralUiSteps.messageIsDisplayed(java.lang.String)</td>
+              <td>5</td>
+              <td class="duration" data-value="397919040">0.397</td>
+              <td class="duration" data-value="397919040">1.148</td>
+              <td class="duration" data-value="1989595200">1.989</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.IndexPageSteps.clickSearchButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="1317157100">1.317</td>
+              <td class="duration" data-value="1317157100">1.317</td>
+              <td class="duration" data-value="1317157100">1.317</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.IndexPageSteps.fillSearchField(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="109979200">0.109</td>
+              <td class="duration" data-value="109979200">0.109</td>
+              <td class="duration" data-value="109979200">0.109</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">io.test.automation.cucumberframework.steps.IndexPageSteps.openMainPage()</td>
+              <td>4</td>
+              <td class="duration" data-value="3599695200">3.599</td>
+              <td class="duration" data-value="3599695200">11.044</td>
+              <td class="duration" data-value="14398780800">14.398</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>24</td>
+            <td>48</td>
+            <td class="duration">0.712</td>
+            <td class="duration">14.398</td>
+            <td class="duration">34.194</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

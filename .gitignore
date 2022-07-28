@@ -1,0 +1,12 @@
+*.DS_Store
+*.iml
+target/
+*/target/
+allure-results/
+*/allure-results/
+.idea
+*.log
+*.*~
+build/
+*/build/
+*.bak

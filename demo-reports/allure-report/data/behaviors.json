@@ -1,0 +1,181 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "API endpoints validations",
+    "children" : [ {
+      "name" : "Validate POST registration request",
+      "children" : [ {
+        "name" : "Validate POST registration request",
+        "uid" : "e5db7dbd60108fd7",
+        "parentUid" : "88687a4d83bb0e1a1b933d590a26195d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942076716,
+          "stop" : 1651942078935,
+          "duration" : 2219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "88687a4d83bb0e1a1b933d590a26195d"
+    }, {
+      "name" : "Validate unable POST registration request (400 status code)",
+      "children" : [ {
+        "name" : "Validate unable POST registration request (400 status code)",
+        "uid" : "b0f1a9efea865470",
+        "parentUid" : "1de64a3e94edea61a317b1be1b0a7e76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942078997,
+          "stop" : 1651942079482,
+          "duration" : 485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1de64a3e94edea61a317b1be1b0a7e76"
+    }, {
+      "name" : "Validate GET user by Id request with token",
+      "children" : [ {
+        "name" : "Validate GET user by Id request with token",
+        "uid" : "10c58dfae2b6955a",
+        "parentUid" : "6f69b8f4a1f4e20a45fc365cb4c94887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942079497,
+          "stop" : 1651942081034,
+          "duration" : 1537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f69b8f4a1f4e20a45fc365cb4c94887"
+    }, {
+      "name" : "Validate unable GET user by Id request without authorization  (401 status code)",
+      "children" : [ {
+        "name" : "Validate unable GET user by Id request without authorization  (401 status code)",
+        "uid" : "1dd0c3646b44bd4e",
+        "parentUid" : "c4a20de2623401b08ad39bf4660a2a2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942081050,
+          "stop" : 1651942081440,
+          "duration" : 390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4a20de2623401b08ad39bf4660a2a2e"
+    } ],
+    "uid" : "ec02baa5821c6b960ee929107532fc6a"
+  }, {
+    "name" : "UI tests for automationpractice site",
+    "children" : [ {
+      "name" : "Search flow validation",
+      "children" : [ {
+        "name" : "Search flow validation",
+        "uid" : "81afb5c12715d00f",
+        "parentUid" : "570b728b8153ef93481783ae7c7dcf56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942081456,
+          "stop" : 1651942093970,
+          "duration" : 12514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "570b728b8153ef93481783ae7c7dcf56"
+    }, {
+      "name" : "Contact us flow with file upload",
+      "children" : [ {
+        "name" : "Contact us flow with file upload",
+        "uid" : "27236cfedc2821ab",
+        "parentUid" : "da70bd2660f8cf31dcfbf8a56a862e21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942093982,
+          "stop" : 1651942103957,
+          "duration" : 9975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da70bd2660f8cf31dcfbf8a56a862e21"
+    }, {
+      "name" : "Sign in flow with email",
+      "children" : [ {
+        "name" : "Sign in flow with email",
+        "uid" : "34a2eecee9fd565",
+        "parentUid" : "7fcde4a81a41a03254cb56e47a83dc02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942103971,
+          "stop" : 1651942107912,
+          "duration" : 3941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fcde4a81a41a03254cb56e47a83dc02"
+    }, {
+      "name" : "Sign in flow with invalid email",
+      "children" : [ {
+        "name" : "Sign in flow with invalid email",
+        "uid" : "d527d26984a63af3",
+        "parentUid" : "9eb6840f29712969d71e3715f6928f88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942107927,
+          "stop" : 1651942111071,
+          "duration" : 3144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9eb6840f29712969d71e3715f6928f88"
+    } ],
+    "uid" : "d3323790276f48e98cf0ffe762dd58ca"
+  } ]
+}

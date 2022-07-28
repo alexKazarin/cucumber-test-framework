@@ -1,0 +1,149 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "L-STPETE-P7QPV2",
+    "children" : [ {
+      "name" : "14960@L-STPETE-P7QPV2.main(1)",
+      "children" : [ {
+        "name" : "Search flow validation",
+        "uid" : "81afb5c12715d00f",
+        "parentUid" : "a44e8d3ca6c3937bcebb377845a79fc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942081456,
+          "stop" : 1651942093970,
+          "duration" : 12514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate unable GET user by Id request without authorization  (401 status code)",
+        "uid" : "1dd0c3646b44bd4e",
+        "parentUid" : "a44e8d3ca6c3937bcebb377845a79fc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942081050,
+          "stop" : 1651942081440,
+          "duration" : 390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sign in flow with email",
+        "uid" : "34a2eecee9fd565",
+        "parentUid" : "a44e8d3ca6c3937bcebb377845a79fc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942103971,
+          "stop" : 1651942107912,
+          "duration" : 3941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate GET user by Id request with token",
+        "uid" : "10c58dfae2b6955a",
+        "parentUid" : "a44e8d3ca6c3937bcebb377845a79fc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942079497,
+          "stop" : 1651942081034,
+          "duration" : 1537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sign in flow with invalid email",
+        "uid" : "d527d26984a63af3",
+        "parentUid" : "a44e8d3ca6c3937bcebb377845a79fc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942107927,
+          "stop" : 1651942111071,
+          "duration" : 3144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate unable POST registration request (400 status code)",
+        "uid" : "b0f1a9efea865470",
+        "parentUid" : "a44e8d3ca6c3937bcebb377845a79fc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942078997,
+          "stop" : 1651942079482,
+          "duration" : 485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate POST registration request",
+        "uid" : "e5db7dbd60108fd7",
+        "parentUid" : "a44e8d3ca6c3937bcebb377845a79fc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942076716,
+          "stop" : 1651942078935,
+          "duration" : 2219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Contact us flow with file upload",
+        "uid" : "27236cfedc2821ab",
+        "parentUid" : "a44e8d3ca6c3937bcebb377845a79fc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651942093982,
+          "stop" : 1651942103957,
+          "duration" : 9975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a44e8d3ca6c3937bcebb377845a79fc8"
+    } ],
+    "uid" : "0e412dc3c480b9a7b3987b3a2fbc15e0"
+  } ]
+}

@@ -1,0 +1,81 @@
+[ {
+  "uid" : "10c58dfae2b6955a",
+  "name" : "Validate GET user by Id request with token",
+  "time" : {
+    "start" : 1651942079497,
+    "stop" : 1651942081034,
+    "duration" : 1537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27236cfedc2821ab",
+  "name" : "Contact us flow with file upload",
+  "time" : {
+    "start" : 1651942093982,
+    "stop" : 1651942103957,
+    "duration" : 9975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81afb5c12715d00f",
+  "name" : "Search flow validation",
+  "time" : {
+    "start" : 1651942081456,
+    "stop" : 1651942093970,
+    "duration" : 12514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0f1a9efea865470",
+  "name" : "Validate unable POST registration request (400 status code)",
+  "time" : {
+    "start" : 1651942078997,
+    "stop" : 1651942079482,
+    "duration" : 485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d527d26984a63af3",
+  "name" : "Sign in flow with invalid email",
+  "time" : {
+    "start" : 1651942107927,
+    "stop" : 1651942111071,
+    "duration" : 3144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34a2eecee9fd565",
+  "name" : "Sign in flow with email",
+  "time" : {
+    "start" : 1651942103971,
+    "stop" : 1651942107912,
+    "duration" : 3941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5db7dbd60108fd7",
+  "name" : "Validate POST registration request",
+  "time" : {
+    "start" : 1651942076716,
+    "stop" : 1651942078935,
+    "duration" : 2219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dd0c3646b44bd4e",
+  "name" : "Validate unable GET user by Id request without authorization  (401 status code)",
+  "time" : {
+    "start" : 1651942081050,
+    "stop" : 1651942081440,
+    "duration" : 390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

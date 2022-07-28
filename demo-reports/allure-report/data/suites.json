@@ -1,0 +1,149 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "API endpoints validations",
+    "children" : [ {
+      "name" : "Validate POST registration request",
+      "uid" : "e5db7dbd60108fd7",
+      "parentUid" : "33da1e7ab1e82de94e25cc2743aa4d81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651942076716,
+        "stop" : 1651942078935,
+        "duration" : 2219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate unable POST registration request (400 status code)",
+      "uid" : "b0f1a9efea865470",
+      "parentUid" : "33da1e7ab1e82de94e25cc2743aa4d81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651942078997,
+        "stop" : 1651942079482,
+        "duration" : 485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate GET user by Id request with token",
+      "uid" : "10c58dfae2b6955a",
+      "parentUid" : "33da1e7ab1e82de94e25cc2743aa4d81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651942079497,
+        "stop" : 1651942081034,
+        "duration" : 1537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate unable GET user by Id request without authorization  (401 status code)",
+      "uid" : "1dd0c3646b44bd4e",
+      "parentUid" : "33da1e7ab1e82de94e25cc2743aa4d81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651942081050,
+        "stop" : 1651942081440,
+        "duration" : 390
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "33da1e7ab1e82de94e25cc2743aa4d81"
+  }, {
+    "name" : "UI tests for automationpractice site",
+    "children" : [ {
+      "name" : "Search flow validation",
+      "uid" : "81afb5c12715d00f",
+      "parentUid" : "d087d4aef9ae393bca0ce2d6e599b64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651942081456,
+        "stop" : 1651942093970,
+        "duration" : 12514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Contact us flow with file upload",
+      "uid" : "27236cfedc2821ab",
+      "parentUid" : "d087d4aef9ae393bca0ce2d6e599b64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651942093982,
+        "stop" : 1651942103957,
+        "duration" : 9975
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sign in flow with email",
+      "uid" : "34a2eecee9fd565",
+      "parentUid" : "d087d4aef9ae393bca0ce2d6e599b64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651942103971,
+        "stop" : 1651942107912,
+        "duration" : 3941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sign in flow with invalid email",
+      "uid" : "d527d26984a63af3",
+      "parentUid" : "d087d4aef9ae393bca0ce2d6e599b64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651942107927,
+        "stop" : 1651942111071,
+        "duration" : 3144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d087d4aef9ae393bca0ce2d6e599b64a"
+  } ]
+}

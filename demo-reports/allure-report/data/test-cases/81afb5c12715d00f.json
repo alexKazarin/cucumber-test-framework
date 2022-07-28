@@ -1,0 +1,154 @@
+{
+  "uid" : "81afb5c12715d00f",
+  "name" : "Search flow validation",
+  "fullName" : "UI tests for automationpractice site: Search flow validation",
+  "historyId" : "e0732c6d0eca67dca61723870413c735",
+  "time" : {
+    "start" : 1651942081456,
+    "stop" : 1651942093970,
+    "duration" : 12514
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "io.test.automation.cucumberframework.context.ContextConfigurationInit.init()",
+    "time" : {
+      "start" : 1651942081456,
+      "stop" : 1651942081456,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I open main page of automationpractice",
+      "time" : {
+        "start" : 1651942081472,
+        "stop" : 1651942092501,
+        "duration" : 11029
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I fill search field \"Printed\"",
+      "time" : {
+        "start" : 1651942092502,
+        "stop" : 1651942092613,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click search button",
+      "time" : {
+        "start" : 1651942092613,
+        "stop" : 1651942093931,
+        "duration" : 1318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  \"Showing 1 - 5 of 5 items\" message is displayed",
+      "time" : {
+        "start" : 1651942093931,
+        "stop" : 1651942093970,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ui"
+  }, {
+    "name" : "host",
+    "value" : "L-STPETE-P7QPV2"
+  }, {
+    "name" : "thread",
+    "value" : "14960@L-STPETE-P7QPV2.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "UI tests for automationpractice site"
+  }, {
+    "name" : "story",
+    "value" : "Search flow validation"
+  }, {
+    "name" : "suite",
+    "value" : "UI tests for automationpractice site"
+  }, {
+    "name" : "testClass",
+    "value" : "Search flow validation"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:cases/ui.feature"
+  }, {
+    "name" : "package",
+    "value" : "cases.ui_feature.UI tests for automationpractice site"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "ui" ]
+  },
+  "source" : "81afb5c12715d00f.json",
+  "parameterValues" : [ ]
+}
