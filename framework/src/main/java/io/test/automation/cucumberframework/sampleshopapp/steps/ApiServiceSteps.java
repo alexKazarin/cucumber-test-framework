@@ -5,10 +5,8 @@ import io.test.automation.cucumberframework.sampleshopapp.models.LoginRequestDto
 import io.test.automation.cucumberframework.sampleshopapp.models.RegistrationAndLoginResponseDto;
 import io.test.automation.cucumberframework.sampleshopapp.requests.ApiServiceRequests;
 import io.test.automation.cucumberframework.general.component.RequestsFactory;
-import io.test.automation.cucumberframework.general.component.ResponseInfo;
 import io.test.automation.cucumberframework.sampleshopapp.models.RegistrationRequestDto;
 import io.test.automation.cucumberframework.sampleshopapp.models.UserDto;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,23 +23,7 @@ public class ApiServiceSteps {
     private UserDto getUserByIdResponse;
 
     @Autowired
-    private ResponseInfo responseInfo;
-
-    @Autowired
     private RequestsFactory request;
-
-    @And("I expect {int} status code")
-    public void expectStatusCode(Integer statusCode) {
-        responseInfo.addExpectedStatusCodes(statusCode);
-    }
-
-    @Given("Error message contains {string}")
-    public void errorMessageContains(String expectedErrorMsg) {
-        String actualError = responseInfo.getError();
-        boolean msgPresented = actualError.contains(expectedErrorMsg);
-        assertThat(msgPresented)
-                .as("Expected message '%s' occur in response '%s'", expectedErrorMsg, actualError).isTrue();
-    }
 
     @Given("I generate POST registration request body")
     public void generatePostRegistrationRequestBody() {
