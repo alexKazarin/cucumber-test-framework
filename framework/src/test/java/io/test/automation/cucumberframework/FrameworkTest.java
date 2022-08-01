@@ -1,7 +1,7 @@
 package io.test.automation.cucumberframework;
 
-import io.test.automation.cucumberframework.component.RequestsFactory;
-import io.test.automation.cucumberframework.requests.AbstractRequests;
+import io.test.automation.cucumberframework.general.component.RequestsFactory;
+import io.test.automation.cucumberframework.general.requests.AbstractRequests;
 import org.junit.jupiter.api.Test;
 
 public class FrameworkTest {
