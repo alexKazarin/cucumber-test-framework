@@ -14,6 +14,8 @@ import lombok.Data;
 import lombok.experimental.Accessors;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.Arrays;
+
 @Data
 @Accessors(chain = true)
 public class AbstractRequests {
@@ -57,6 +59,16 @@ public class AbstractRequests {
          */
         public <T> T extract(Integer successCode, Class<T> clazz) {
             if (response.statusCode() == successCode) {
+                return response.response().as(clazz);
+            }
+            responseInfo.setResponse(response);
+            return null;
+        }
+
+        public <T> T extract(Class<T> clazz, Integer... successCodes) {
+            if (Arrays.stream(successCodes)
+                    .anyMatch(n -> n == response.statusCode()) &&
+                    !response.contentType().equals("")) {
                 return response.response().as(clazz);
             }
             responseInfo.setResponse(response);
